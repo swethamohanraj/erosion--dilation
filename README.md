@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 text_image = np.zeros((100,440),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(text_image," Aashima.S",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(text_image," K.M.Swetha",(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.title("Original Image")
 plt.imshow(text_image,'magma')
 plt.axis('off')
@@ -57,15 +57,18 @@ plt.axis('off')
 ## Output:
 
 ### Display the input Image
-![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/169fdf93-929f-471e-b332-5f8384876051)
+![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/ffd4e1f4-ffa3-465a-94a1-d3d167cf3c44)
+
 
 
 ### Display the Eroded Image
-![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/ed3a04e0-7ee6-4a92-bf9a-c86ffe376903)
+![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/05f473b3-b9d6-48b0-a76e-75b2d916a540)
+
 
 
 ### Display the Dilated Image
-![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/1a35310b-155f-4297-827a-03fba17dd27c)
+![image](https://github.com/swethamohanraj/erosion--dilation/assets/94228215/d605d0ab-71cd-487e-add4-de5b63767665)
+
 
 
 ## Result
